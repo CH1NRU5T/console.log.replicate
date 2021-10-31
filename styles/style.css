@@ -15,6 +15,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 10rem;
+  z-index: 10000;
   background-color: #3c39f0;
 }
 #title {
@@ -241,3 +242,59 @@ h3 {
 /* Projects close */
 
 /* Testimonial */
+#testimonial {
+  margin-top: 10rem;
+  width: 100%;
+  background: url(../Assets/testimonial-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+.testimonial-card {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.testimonial-card-top {
+  height: 40%;
+  width: 90%;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  flex-direction: row !important;
+}
+.testimonial-card-top img {
+  position: inherit !important;
+  width: 4rem !important;
+  height: 4rem !important;
+  border-radius: 50% !important;
+}
+.testimonial-card-top h2 {
+  font-size: 1rem;
+  color: #000;
+}
+.testimonial-card-bottom {
+  width: 80%;
+  height: 50%;
+}
+.testimonial-card-bottom-top img {
+  position: inherit !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+.testimonial-card-bottom-top {
+  display: flex;
+  flex-direction: row;
+}
