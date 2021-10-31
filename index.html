@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
-    
+    <!-- flickity caraousel css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
+    <link rel="stylesheet" href="./styles/animation.css">
+    <link rel="stylesheet" href="./styles/flick.css">
     <title>Clomant</title>
 </head>
 <body>
@@ -37,6 +40,7 @@
         </div>
     </div>
 
+    <!-- Services section start -->
     <div id="services">
         <div id="top-text">
             <h2>We're offering</h2><br>
@@ -91,7 +95,9 @@
             </div>
         
     </div>
+    <!-- Services section end -->
 
+    <!-- About section start -->
     <div id="about">
         <div id="about-left">
             <h2 style="font-weight: 400;">Work process</h2>
@@ -117,6 +123,65 @@
             <img src="./Assets/idea.png" alt="">
         </div>
     </div>
+    <!-- About section end -->
+
+
+    <!-- Projects section start -->
+    <div id="projects">
+        <div id="proj-top">
+            <p>Our Project</p>
+            <button><a href="">View more</a></button>
+        </div>
+        <div id="proj-middle">
+            <!-- Flickity HTML init -->
+            <div class="gallery js-flickity"
+  data-flickity-options='{ "wrapAround": true }'>
+  <div class="gallery-cell" style="background: url(./Assets/carousel/slider1.jpg);">
+      
+  </div>
+  <div class="gallery-cell" style="background: url(./Assets/carousel/slider2.jpg);"></div>
+  <div class="gallery-cell" style="background: url(./Assets/carousel/slider3.jpg);"></div>
+  <div class="gallery-cell" style="background: url(./Assets/carousel/slider4.jpg);"></div>
+  <div class="gallery-cell" style="background: url(./Assets/carousel/slider5.jpg);"></div>
+            </div>
+        </div>
+        <div id="proj-bottom">
+            <div class="proj-bottom-cards">
+                <img src="./Assets/satisfied-client.svg" alt="" class="proj-bottom-icon">
+                <div class="proj-bottom-right-content">
+                    <h1 class="stats">97%</h1>
+                    <p class="stats-desc">Satisfied clients</p>
+                </div>
+            </div>
+            <div class="proj-bottom-cards">
+                <img src="./Assets/finished-project.svg" alt="" class="proj-bottom-icon">
+                <div class="proj-bottom-right-content">
+                    <h1 class="stats">3214</h1>
+                    <p class="stats-desc">Finished Project</p>
+                </div>
+            </div>
+            <div class="proj-bottom-cards">
+                <img src="./Assets/team-members.svg" alt="" class="proj-bottom-icon">
+                <div class="proj-bottom-right-content">
+                    <h1 class="stats">125</h1>
+                    <p class="stats-desc">Team Members</p>
+                </div>
+            </div>
+            <div class="proj-bottom-cards">
+                <img src="./Assets/our-blog-posts.svg" alt="" class="proj-bottom-icon">
+                <div class="proj-bottom-right-content">
+                    <h1 class="stats">2135</h1>
+                    <p class="stats-desc">Our Blog Posts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects section close -->
+
+    <!-- Testimonial section start -->
 </body>
+
+<!-- flickity caraousel js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
 <script src="./js/active.js"></script>
 </html>

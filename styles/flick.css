@@ -1,0 +1,35 @@
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: #fff;
+}
+
+.gallery-cell {
+  width: 22%;
+  height: 25rem;
+  margin: 0 1.5rem;
+  counter-increment: gallery-cell;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+  transition: 2s ease-in-out;
+}
+
+.gallery-cell:hover {
+  animation: hoverZoom 2s both;
+  transition: 2s ease-in-out;
+}
