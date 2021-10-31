@@ -34,7 +34,6 @@ body {
 }
 #nav-links a {
   text-decoration: none;
-
   font-weight: 400;
   color: #fff;
   padding: 10px 20px;
@@ -45,11 +44,14 @@ body {
 }
 #hero-section {
   margin-top: 10.02rem;
+  background: url(../Assets/banner-bg.svg);
   display: flex;
   justify-content: center;
   flex-direction: row;
-  width: 100vw;
-  height: 92vh;
+  width: 98.9vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #hero-section h1,
 h2 {
