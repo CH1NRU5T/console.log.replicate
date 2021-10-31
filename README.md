@@ -9,4 +9,4 @@
 ![image](https://user-images.githubusercontent.com/72245838/139595997-c3ef03d1-234f-4d33-b327-9c9f6d3af0ad.png)
 ![image](https://user-images.githubusercontent.com/72245838/139595999-a7d18bb5-553e-47a4-b5f8-27c45c3f0312.png)
 
-## Visit <a href="https://ch1nru5t.github.io/console.log.replicate">here</a>
+## Visit <a target="_blank" href="https://ch1nru5t.github.io/console.log.replicate">here</a>
