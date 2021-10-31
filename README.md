@@ -1,5 +1,5 @@
 # Website clone for the event Dhruva @ IIITK
-![image](https://user-images.githubusercontent.com/72245838/139595628-7c023fd7-3e63-4042-9944-82b83d4c8934.png)
-![image](https://user-images.githubusercontent.com/72245838/139595633-66be21b5-84c3-4f63-ac73-8213ef971a32.png)
-![image](https://user-images.githubusercontent.com/72245838/139595637-15ba24ae-68f5-4fa4-9fc8-bd99dcf29477.png)
-![image](https://user-images.githubusercontent.com/72245838/139595639-39d1a959-f1a4-4b63-b8fa-5eecc993430e.png)
+![image](https://user-images.githubusercontent.com/72245838/139595977-117ab422-d3af-4ab0-a67f-554f63dabb3a.png)
+![image](https://user-images.githubusercontent.com/72245838/139595984-a5f977d5-9d2f-42d1-a6e4-58bde5502c93.png)
+![image](https://user-images.githubusercontent.com/72245838/139595997-c3ef03d1-234f-4d33-b327-9c9f6d3af0ad.png)
+![image](https://user-images.githubusercontent.com/72245838/139595999-a7d18bb5-553e-47a4-b5f8-27c45c3f0312.png)
